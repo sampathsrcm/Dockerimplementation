@@ -11,7 +11,7 @@ pipeline
             steps
             {
                 
-                bat 'mvn -f integ-Maven-tutorial/pom.xml clean package'
+                bat 'mvn -f integ-Maven-tutorial2/pom.xml clean package'
                 
             }
             post
