@@ -31,12 +31,12 @@ pipeline
             
             
         }
-        stage('create tomcat Docker image')
+        stage('Creating Tomcat Docker Image')
          {
             steps
              {   
           
-                bat 'docker build -t tomcatsampleimage:${env.BUILD_ID} .'    
+                bat "docker build . -t tomcatsamplewebapp:${env.BUILD_ID}"   
           
               }               
                                
