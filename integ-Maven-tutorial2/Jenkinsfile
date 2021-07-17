@@ -36,7 +36,7 @@ pipeline
             steps
              {   
           
-                bat "docker build . -t tomcatsamplewebapp:${env.BUILD_ID}"   
+                bat "docker build ./integ-Maven-tutorial2 -t tomcatsamplewebapp:${env.BUILD_ID}"   
           
               }               
                                
